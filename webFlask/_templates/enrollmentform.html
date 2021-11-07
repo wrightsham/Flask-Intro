@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+</head>
+<body>
+    <h1>Student Enrollment Form</h1>
+    <form action="" method="post" name="student">
+        {{ form.csrf_token }}
+        <p>First Name:
+            {{form.first_name(size=30)}}
+        </p>
+        <p>Last Name:
+            {{form.last_name}}
+        </p>
+        <p>Panther ID:
+            {{form.pid}}
+        </p>
+        <p>Start Date:
+            {{form.start_date}}
+        </p>
+        <p>Major:
+            {{form.major}}
+        </p>
+        <p>Campus:
+            {{form.campus}}
+        </p>
+
+        <p><input type="submit" value="Submit"></p>
+
+    </form>
+</body>
+</html>

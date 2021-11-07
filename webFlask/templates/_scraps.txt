@@ -1,0 +1,4 @@
+<!--- href="{{ url_for('bestSellers' )}}"  for a classes on line 56-57
+<a class="nav-link" href="{{ url_for('bookReviews' )}}">Top Artists</a>
+<a class="nav-link" href="{{ url_for('bestSellers )}}">Top Tracks</a>
+--->
